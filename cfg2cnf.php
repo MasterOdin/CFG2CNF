@@ -352,11 +352,11 @@ if($submit == 1)
 else
 {
 ?>
-<a href="cfg2cnfREADME.txt">README</a> | <a href="cfg2cnf.txt">View Page Source</a> | <a href="http://www.mpeveler.com/?content=work">Back to Site</a><br /><br />
 Put grammar below, one grammar rule per line.<br />
 <br />
 Ex: A->a|aAa|/<br />
-The / character is the empty string or epsilon for the convertor. Capital Letters are non-terminals while lowercase are terminals. Hard limit for non-terminals is number of letters in alphabet.<br /><br />
+The / character is the empty string or epsilon for the convertor. Capital Letters are non-terminals while lowercase are terminals. Hard limit for non-terminals is number of letters in alphabet.<br />
+Separate rules using the | character.<br />
 <form action="cfg2cnf.php" method="POST">
     <input type="hidden" name="submit" value="1" />
     <textarea name="grammar" cols="100" rows="30"></textarea><br />
